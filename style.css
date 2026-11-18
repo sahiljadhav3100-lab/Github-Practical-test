@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; background: #f4f6f8; color: #222; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 32px; background: #1f2937; position: sticky; top: 0; }
+.logo { color: white; text-decoration: none; font-weight: bold; }
+.nav-links { display: flex; gap: 20px; list-style: none; }
+.nav-links a { color: white; text-decoration: none; }
+.nav-links a:hover { color: #60a5fa; }
+.hero { text-align: center; padding: 80px 20px; background: linear-gradient(135deg, #2563eb, #7c3aed); color: white; }
+.hero h1 { margin-bottom: 12px; }
+button { margin-top: 16px; padding: 10px 20px; border: none; border-radius: 6px; background: white; color: #2563eb; font-weight: bold; cursor: pointer; }
+button:hover { background: #e5e7eb; }
+#greet-message { margin-top: 12px; font-weight: bold; }
+.card { max-width: 800px; margin: 30px auto; padding: 24px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.card h2 { margin-bottom: 12px; color: #1f2937; }
+.card a { color: #2563eb; }
+ul { padding-left: 20px; }
+.project { border-left: 4px solid #2563eb; padding-left: 12px; margin-top: 12px; }
+.footer { text-align: center; padding: 20px; background: #1f2937; color: white; margin-top: 40px; }
